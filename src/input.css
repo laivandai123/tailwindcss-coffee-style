@@ -27,3 +27,6 @@
 .ct-subheadline-deco-line {
     @apply w-8 h-px bg-gray-200;
 }
+.ct-buttom {
+    @apply text-center uppercase tracking-wider py-4 px-8  text-[12px] font-semibold cursor-pointer;
+}
