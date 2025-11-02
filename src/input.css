@@ -22,11 +22,11 @@
     @apply flex justify-center items-center mb-24;
 }
 .ct-subheadline-label {
-    @apply uppercase mx-4 text-gray-500 font-medium tracking-wider text-[12px] text-center;
+    @apply uppercase mx-4 text-gray-500 font-medium tracking-widest text-[12px] text-center;
 }
 .ct-subheadline-deco-line {
     @apply w-8 h-px bg-gray-200;
 }
 .ct-buttom {
-    @apply text-center uppercase tracking-widest py-4 px-8  text-[12px] font-semibold cursor-pointer;
+    @apply text-center uppercase tracking-widest py-4 px-8 hover:opacity-90  text-[12px] font-semibold cursor-pointer;
 }
