@@ -4,10 +4,7 @@
     "description": "vandaidev.com",
     "main": "index.js",
     "scripts": {
-        "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
+        "start": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
     },
     "keywords": [],
     "author": "vandaidev.com",
