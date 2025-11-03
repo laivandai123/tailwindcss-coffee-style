@@ -11,10 +11,10 @@
     <body>
         <div id="root">
             <div
-                class="content-wrapper font-Karla max-w-screen-xl text-base mx-auto px-8 "
+                class="content-wrapper ct-no-parallax font-Karla  text-base mx-auto px-8 "
             >
-                <header class="p-6 mx-auto">
-                    <nav class="flex flex-row text-center justify-between items-center relative">
+                <header class="p-6 mx-auto w-full max-w-screen-xl">
+                    <nav class="flex flex-row text-center justify-between  items-center relative">
                         <div
                             class="basis-2/6  text-xl font-semibold cursor-pointer"
                         >
@@ -58,8 +58,8 @@
                         </div>
                     </nav>
                 </header>
-                <main>
-                    <div class="slider h-[530px] mb-24  bg-[url('./img/slider-bg.jpg')] bg-cover bg-bottom bg-no-repeat">
+               
+                    <div class="slider w-full max-w-screen-xl h-[530px]   bg-[url('./img/slider-bg.jpg')] bg-cover bg-bottom bg-no-repeat">
                         <div class="flex justify-center items-center w-full h-full bg-gray-900 bg-opacity-40">
                             <div class="mx-16 text-white text-center">
                                 <div class="uppercase  mb-6">Best place to buy coffee</div>
@@ -76,7 +76,7 @@
                         <div class="ct-subheadline-label ">Our Coffee Story</div>
                         <div class="ct-subheadline-deco-line "></div>
                     </div>
-                    <div class="story flex md:flex-row flex-col gap-4 justify-center items-center w-[95%] lg:w-[95%] xl:w-[72%] mx-auto mb-24">
+                    <div class="story flex md:flex-row flex-col gap-4 justify-center items-center w-[95%] lg:w-[95%] xl:w-[72%] mx-auto ">
                         <div class="basis-1/2 mb-5 md:mb-0">
                             <video autoplay loop muted class="w-full h-full object-cover h-[350px]">
                                 <source src="./video/video-coffee.mp4" type="video/mp4">
@@ -96,7 +96,7 @@
                         <div class="ct-subheadline-label ">Featured Mugs</div>
                         <div class="ct-subheadline-deco-line "></div>
                     </div>
-                    <div class="featured-mugs w-[95%] lg:w-[95%] xl:w-[72%] mx-auto mb-24">
+                    <div class="featured-mugs w-[95%] lg:w-[95%] xl:w-[72%] mx-auto ">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
                             <div class="ct-product-card">
                                 <div class="h-[400px] sm:h-[540px] bg-[url('./img/feature-mugs-1.jpg')] bg-cover bg-center bg-no-repeat">
@@ -140,7 +140,7 @@
                         <div class="ct-subheadline-label ">More Products</div>
                         <div class="ct-subheadline-deco-line "></div>
                     </div>
-                    <div class="more-products w-[95%] lg:w-[95%] xl:w-[72%] mx-auto mb-24">
+                    <div class="more-products w-[95%] lg:w-[95%] xl:w-[72%] mx-auto ">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4 ">
                             <div class="ct-product-card">
                                 <div class=" h-[380px]  bg-[url('./img/product-card-1.jpg')] bg-cover bg-center bg-no-repeat">
@@ -314,7 +314,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ct-parallax-section bg-[url('./img/parallax-bg.jpg')] h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)] bg-cover bg-center bg-no-repeat"></div>
+                    </div>
+                    <!-- <div class="ct-parallax bg-[url('./img/parallax-bg.jpg')] h-[340px] mb-24 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)] bg-cover bg-center bg-no-repeat"></div> -->
+                     <div class="ct-parallax">
+                        <div class="ct-parallax-image bg-[url('./img/parallax-bg.jpg')]"></div>
+                     </div>
+                     <div
+                class="content-wrapper ct-no-parallax font-Karla  text-base mx-auto px-8 "
+            >
                     <div class="ct-subheadline ">
                         <div class="ct-subheadline-deco-line "></div>
                         <div class="ct-subheadline-label ">Behind the mugs, lifestyle stories</div>
@@ -380,7 +387,7 @@
                            
                         </div>
                     </div>
-                    <div class="subscribe-us h-[330px] flex flex-col justify-center items-center  bg-[#1d1f2e] mb-24">
+                    <div class="subscribe-us w-full max-w-screen-xl h-[330px] flex flex-col justify-center items-center  bg-[#1d1f2e] mb-24">
                         <div class="flex justify-center items-center px-6 xs:px-0 mb-5">
                         <div class="w-8 h-px bg-gray-700"></div>
                         <div class="uppercase mx-4 text-[#999799] font-extrabold tracking-widest text-xs text-center">Sign up and get free coffee bags</div>
@@ -396,7 +403,7 @@
                         </div>
                     </div>
                     </div>
-                </main>
+               
                 <footer class="footer w-[95%] lg:w-[95%] xl:w-[72%] mx-auto mb-24">
                     <div class="flex md:flex-row flex-col text-center md:text-left gap-8 text-gray-500 text-sm">
                         <div class="basis-2/6">

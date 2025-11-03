@@ -19,7 +19,7 @@
     @apply text-xs text-center rounded-full px-1.5;
 }
 .ct-subheadline {
-    @apply flex justify-center items-center mb-24;
+    @apply flex justify-center items-center my-16;
 }
 .ct-subheadline-label {
     @apply uppercase mx-4 text-gray-500 font-medium tracking-widest text-[12px] text-center;
@@ -29,4 +29,36 @@
 }
 .ct-buttom {
     @apply text-center uppercase tracking-widest py-4 px-8 hover:opacity-90  text-[12px] font-semibold cursor-pointer;
+}
+#root {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+.ct-parallax,
+.ct-no-parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.ct-parallax {
+    height: 60vh;
+    transform-style: preserve-3d;
+}
+.ct-no-parallax {
+    height: auto;
+    z-index: 999;
+    background: white;
+}
+.ct-parallax-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(-1px) scale(1.5);
+    z-index: -1;
+    background-style: cover;
+    background-position: center;
 }
